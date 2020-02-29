@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51A7E7DDD258AA70D15A6E13 /* Pods_Fantasy_Football_League_FinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6846851046B7619FA9290F15 /* Pods_Fantasy_Football_League_FinderUITests.framework */; };
+		8011F0B822B54CA900499596 /* LeagueOwnerPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8011F0B722B54CA900499596 /* LeagueOwnerPost.swift */; };
+		8011F0BC22B5679700499596 /* LeagueFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8011F0BB22B5679700499596 /* LeagueFinder.swift */; };
+		801ED3FD22B1BD490060EA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ED3FC22B1BD490060EA4F /* AppDelegate.swift */; };
+		801ED3FF22B1BD490060EA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ED3FE22B1BD490060EA4F /* ViewController.swift */; };
+		801ED40222B1BD490060EA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801ED40022B1BD490060EA4F /* Main.storyboard */; };
+		801ED40422B1BD4C0060EA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801ED40322B1BD4C0060EA4F /* Assets.xcassets */; };
+		801ED40722B1BD4C0060EA4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801ED40522B1BD4C0060EA4F /* LaunchScreen.storyboard */; };
+		801ED41222B1BD4D0060EA4F /* Fantasy_Football_League_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ED41122B1BD4D0060EA4F /* Fantasy_Football_League_FinderTests.swift */; };
+		801ED41D22B1BD4D0060EA4F /* Fantasy_Football_League_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801ED41C22B1BD4D0060EA4F /* Fantasy_Football_League_FinderUITests.swift */; };
+		8022758422B8487800E350D4 /* SavedLeagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022758322B8487800E350D4 /* SavedLeagues.swift */; };
+		8047932E22BB0C2600A2CBC4 /* League_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047932D22BB0C2600A2CBC4 /* League_List.swift */; };
+		8047933022BEABC900A2CBC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8047932F22BEABC900A2CBC4 /* Default-568h@2x.png */; };
+		8047933222BEB41C00A2CBC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8047933122BEB41C00A2CBC4 /* GoogleService-Info.plist */; };
+		8047933322BEB41C00A2CBC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8047933122BEB41C00A2CBC4 /* GoogleService-Info.plist */; };
+		8047933422BEB41C00A2CBC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8047933122BEB41C00A2CBC4 /* GoogleService-Info.plist */; };
+		8047933622BEDE3E00A2CBC4 /* Search_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047933522BEDE3E00A2CBC4 /* Search_Results.swift */; };
+		8047933722BEDE3E00A2CBC4 /* Search_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047933522BEDE3E00A2CBC4 /* Search_Results.swift */; };
+		8047933822BEDE3E00A2CBC4 /* Search_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8047933522BEDE3E00A2CBC4 /* Search_Results.swift */; };
+		80F4D22422B99F790014BCE1 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4D22322B99F790014BCE1 /* League.swift */; };
+		B9569FAAC6DDE6C91B513573 /* Pods_Fantasy_Football_League_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D303EC3F2A46B38051ED10 /* Pods_Fantasy_Football_League_Finder.framework */; };
+		F8300E1DD6E88C2566BDEB8D /* Pods_Fantasy_Football_League_FinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAB038248CEDD8F8A5EB590 /* Pods_Fantasy_Football_League_FinderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801ED40E22B1BD4D0060EA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801ED3F122B1BD490060EA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801ED3F822B1BD490060EA4F;
+			remoteInfo = "Fantasy Football League Finder";
+		};
+		801ED41922B1BD4D0060EA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801ED3F122B1BD490060EA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801ED3F822B1BD490060EA4F;
+			remoteInfo = "Fantasy Football League Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BA6E433D387549B5E2775AC /* Pods-Fantasy Football League Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy Football League Finder.debug.xcconfig"; path = "Target Support Files/Pods-Fantasy Football League Finder/Pods-Fantasy Football League Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		1DAB038248CEDD8F8A5EB590 /* Pods_Fantasy_Football_League_FinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fantasy_Football_League_FinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400C498730D5CBF4262AC472 /* Pods-Fantasy Football League FinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy Football League FinderTests.debug.xcconfig"; path = "Target Support Files/Pods-Fantasy Football League FinderTests/Pods-Fantasy Football League FinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54D303EC3F2A46B38051ED10 /* Pods_Fantasy_Football_League_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fantasy_Football_League_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6846851046B7619FA9290F15 /* Pods_Fantasy_Football_League_FinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fantasy_Football_League_FinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8011F0B722B54CA900499596 /* LeagueOwnerPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOwnerPost.swift; sourceTree = "<group>"; };
+		8011F0BB22B5679700499596 /* LeagueFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueFinder.swift; sourceTree = "<group>"; };
+		801ED3F922B1BD490060EA4F /* Fantasy Football League Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fantasy Football League Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801ED3FC22B1BD490060EA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		801ED3FE22B1BD490060EA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		801ED40122B1BD490060EA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		801ED40322B1BD4C0060EA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		801ED40622B1BD4C0060EA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		801ED40822B1BD4C0060EA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801ED40D22B1BD4D0060EA4F /* Fantasy Football League FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fantasy Football League FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801ED41122B1BD4D0060EA4F /* Fantasy_Football_League_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fantasy_Football_League_FinderTests.swift; sourceTree = "<group>"; };
+		801ED41322B1BD4D0060EA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801ED41822B1BD4D0060EA4F /* Fantasy Football League FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fantasy Football League FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801ED41C22B1BD4D0060EA4F /* Fantasy_Football_League_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fantasy_Football_League_FinderUITests.swift; sourceTree = "<group>"; };
+		801ED41E22B1BD4D0060EA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8022758322B8487800E350D4 /* SavedLeagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLeagues.swift; sourceTree = "<group>"; };
+		8047932D22BB0C2600A2CBC4 /* League_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League_List.swift; sourceTree = "<group>"; };
+		8047932F22BEABC900A2CBC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8047933122BEB41C00A2CBC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8047933522BEDE3E00A2CBC4 /* Search_Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Results.swift; sourceTree = "<group>"; };
+		80F4D22322B99F790014BCE1 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		95F8710B61A05FF3D0D405CA /* Pods-Fantasy Football League FinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy Football League FinderUITests.release.xcconfig"; path = "Target Support Files/Pods-Fantasy Football League FinderUITests/Pods-Fantasy Football League FinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA4141CB058AD11AE65B51A6 /* Pods-Fantasy Football League Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy Football League Finder.release.xcconfig"; path = "Target Support Files/Pods-Fantasy Football League Finder/Pods-Fantasy Football League Finder.release.xcconfig"; sourceTree = "<group>"; };
+		E862CAE1762EAD4D450B124D /* Pods-Fantasy Football League FinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy Football League FinderTests.release.xcconfig"; path = "Target Support Files/Pods-Fantasy Football League FinderTests/Pods-Fantasy Football League FinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		F53A1459DE73A351D546CEAE /* Pods-Fantasy Football League FinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fantasy Football League FinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fantasy Football League FinderUITests/Pods-Fantasy Football League FinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801ED3F622B1BD490060EA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9569FAAC6DDE6C91B513573 /* Pods_Fantasy_Football_League_Finder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801ED40A22B1BD4D0060EA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8300E1DD6E88C2566BDEB8D /* Pods_Fantasy_Football_League_FinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801ED41522B1BD4D0060EA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A7E7DDD258AA70D15A6E13 /* Pods_Fantasy_Football_League_FinderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801ED3F022B1BD490060EA4F = {
+			isa = PBXGroup;
+			children = (
+				8047932F22BEABC900A2CBC4 /* Default-568h@2x.png */,
+				801ED3FB22B1BD490060EA4F /* FFLF */,
+				801ED41022B1BD4D0060EA4F /* FFLFTests */,
+				801ED41B22B1BD4D0060EA4F /* FFLFUITests */,
+				801ED3FA22B1BD490060EA4F /* Products */,
+				E98C1339E2E157D5968B58D7 /* Pods */,
+				AD7BC76D5CB4C35BB943F5F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		801ED3FA22B1BD490060EA4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801ED3F922B1BD490060EA4F /* Fantasy Football League Finder.app */,
+				801ED40D22B1BD4D0060EA4F /* Fantasy Football League FinderTests.xctest */,
+				801ED41822B1BD4D0060EA4F /* Fantasy Football League FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801ED3FB22B1BD490060EA4F /* FFLF */ = {
+			isa = PBXGroup;
+			children = (
+				801ED3FC22B1BD490060EA4F /* AppDelegate.swift */,
+				801ED3FE22B1BD490060EA4F /* ViewController.swift */,
+				8011F0B722B54CA900499596 /* LeagueOwnerPost.swift */,
+				8011F0BB22B5679700499596 /* LeagueFinder.swift */,
+				8022758322B8487800E350D4 /* SavedLeagues.swift */,
+				801ED40022B1BD490060EA4F /* Main.storyboard */,
+				8047933522BEDE3E00A2CBC4 /* Search_Results.swift */,
+				801ED40322B1BD4C0060EA4F /* Assets.xcassets */,
+				801ED40522B1BD4C0060EA4F /* LaunchScreen.storyboard */,
+				801ED40822B1BD4C0060EA4F /* Info.plist */,
+				8047932D22BB0C2600A2CBC4 /* League_List.swift */,
+				80F4D22322B99F790014BCE1 /* League.swift */,
+				8047933122BEB41C00A2CBC4 /* GoogleService-Info.plist */,
+			);
+			path = FFLF;
+			sourceTree = "<group>";
+		};
+		801ED41022B1BD4D0060EA4F /* FFLFTests */ = {
+			isa = PBXGroup;
+			children = (
+				801ED41122B1BD4D0060EA4F /* Fantasy_Football_League_FinderTests.swift */,
+				801ED41322B1BD4D0060EA4F /* Info.plist */,
+			);
+			path = FFLFTests;
+			sourceTree = "<group>";
+		};
+		801ED41B22B1BD4D0060EA4F /* FFLFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				801ED41C22B1BD4D0060EA4F /* Fantasy_Football_League_FinderUITests.swift */,
+				801ED41E22B1BD4D0060EA4F /* Info.plist */,
+			);
+			path = FFLFUITests;
+			sourceTree = "<group>";
+		};
+		AD7BC76D5CB4C35BB943F5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54D303EC3F2A46B38051ED10 /* Pods_Fantasy_Football_League_Finder.framework */,
+				1DAB038248CEDD8F8A5EB590 /* Pods_Fantasy_Football_League_FinderTests.framework */,
+				6846851046B7619FA9290F15 /* Pods_Fantasy_Football_League_FinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E98C1339E2E157D5968B58D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6E433D387549B5E2775AC /* Pods-Fantasy Football League Finder.debug.xcconfig */,
+				AA4141CB058AD11AE65B51A6 /* Pods-Fantasy Football League Finder.release.xcconfig */,
+				400C498730D5CBF4262AC472 /* Pods-Fantasy Football League FinderTests.debug.xcconfig */,
+				E862CAE1762EAD4D450B124D /* Pods-Fantasy Football League FinderTests.release.xcconfig */,
+				F53A1459DE73A351D546CEAE /* Pods-Fantasy Football League FinderUITests.debug.xcconfig */,
+				95F8710B61A05FF3D0D405CA /* Pods-Fantasy Football League FinderUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801ED3F822B1BD490060EA4F /* Fantasy Football League Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801ED42122B1BD4D0060EA4F /* Build configuration list for PBXNativeTarget "Fantasy Football League Finder" */;
+			buildPhases = (
+				A293B7ADB3A13F0D89CDA967 /* [CP] Check Pods Manifest.lock */,
+				801ED3F522B1BD490060EA4F /* Sources */,
+				801ED3F622B1BD490060EA4F /* Frameworks */,
+				801ED3F722B1BD490060EA4F /* Resources */,
+				AF2A888C3F6D3BF60AB52B3C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fantasy Football League Finder";
+			productName = "Fantasy Football League Finder";
+			productReference = 801ED3F922B1BD490060EA4F /* Fantasy Football League Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801ED40C22B1BD4D0060EA4F /* Fantasy Football League FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801ED42422B1BD4D0060EA4F /* Build configuration list for PBXNativeTarget "Fantasy Football League FinderTests" */;
+			buildPhases = (
+				F6A9DC27E582DE9596215F97 /* [CP] Check Pods Manifest.lock */,
+				801ED40922B1BD4D0060EA4F /* Sources */,
+				801ED40A22B1BD4D0060EA4F /* Frameworks */,
+				801ED40B22B1BD4D0060EA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801ED40F22B1BD4D0060EA4F /* PBXTargetDependency */,
+			);
+			name = "Fantasy Football League FinderTests";
+			productName = "Fantasy Football League FinderTests";
+			productReference = 801ED40D22B1BD4D0060EA4F /* Fantasy Football League FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		801ED41722B1BD4D0060EA4F /* Fantasy Football League FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801ED42722B1BD4D0060EA4F /* Build configuration list for PBXNativeTarget "Fantasy Football League FinderUITests" */;
+			buildPhases = (
+				E4E7EDD7CFC750968D0789CC /* [CP] Check Pods Manifest.lock */,
+				801ED41422B1BD4D0060EA4F /* Sources */,
+				801ED41522B1BD4D0060EA4F /* Frameworks */,
+				801ED41622B1BD4D0060EA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801ED41A22B1BD4D0060EA4F /* PBXTargetDependency */,
+			);
+			name = "Fantasy Football League FinderUITests";
+			productName = "Fantasy Football League FinderUITests";
+			productReference = 801ED41822B1BD4D0060EA4F /* Fantasy Football League FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801ED3F122B1BD490060EA4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Lukas Jaklitsch";
+				TargetAttributes = {
+					801ED3F822B1BD490060EA4F = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					801ED40C22B1BD4D0060EA4F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 801ED3F822B1BD490060EA4F;
+					};
+					801ED41722B1BD4D0060EA4F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 801ED3F822B1BD490060EA4F;
+					};
+				};
+			};
+			buildConfigurationList = 801ED3F422B1BD490060EA4F /* Build configuration list for PBXProject "Fantasy Football League Finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801ED3F022B1BD490060EA4F;
+			productRefGroup = 801ED3FA22B1BD490060EA4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801ED3F822B1BD490060EA4F /* Fantasy Football League Finder */,
+				801ED40C22B1BD4D0060EA4F /* Fantasy Football League FinderTests */,
+				801ED41722B1BD4D0060EA4F /* Fantasy Football League FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801ED3F722B1BD490060EA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801ED40722B1BD4C0060EA4F /* LaunchScreen.storyboard in Resources */,
+				8047933022BEABC900A2CBC4 /* Default-568h@2x.png in Resources */,
+				8047933222BEB41C00A2CBC4 /* GoogleService-Info.plist in Resources */,
+				801ED40422B1BD4C0060EA4F /* Assets.xcassets in Resources */,
+				801ED40222B1BD490060EA4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801ED40B22B1BD4D0060EA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8047933322BEB41C00A2CBC4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801ED41622B1BD4D0060EA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8047933422BEB41C00A2CBC4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A293B7ADB3A13F0D89CDA967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fantasy Football League Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2A888C3F6D3BF60AB52B3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fantasy Football League Finder/Pods-Fantasy Football League Finder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fantasy Football League Finder/Pods-Fantasy Football League Finder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fantasy Football League Finder/Pods-Fantasy Football League Finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E7EDD7CFC750968D0789CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fantasy Football League FinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A9DC27E582DE9596215F97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fantasy Football League FinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801ED3F522B1BD490060EA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8047932E22BB0C2600A2CBC4 /* League_List.swift in Sources */,
+				80F4D22422B99F790014BCE1 /* League.swift in Sources */,
+				8011F0BC22B5679700499596 /* LeagueFinder.swift in Sources */,
+				8011F0B822B54CA900499596 /* LeagueOwnerPost.swift in Sources */,
+				801ED3FF22B1BD490060EA4F /* ViewController.swift in Sources */,
+				801ED3FD22B1BD490060EA4F /* AppDelegate.swift in Sources */,
+				8047933622BEDE3E00A2CBC4 /* Search_Results.swift in Sources */,
+				8022758422B8487800E350D4 /* SavedLeagues.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801ED40922B1BD4D0060EA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8047933722BEDE3E00A2CBC4 /* Search_Results.swift in Sources */,
+				801ED41222B1BD4D0060EA4F /* Fantasy_Football_League_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801ED41422B1BD4D0060EA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8047933822BEDE3E00A2CBC4 /* Search_Results.swift in Sources */,
+				801ED41D22B1BD4D0060EA4F /* Fantasy_Football_League_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801ED40F22B1BD4D0060EA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801ED3F822B1BD490060EA4F /* Fantasy Football League Finder */;
+			targetProxy = 801ED40E22B1BD4D0060EA4F /* PBXContainerItemProxy */;
+		};
+		801ED41A22B1BD4D0060EA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801ED3F822B1BD490060EA4F /* Fantasy Football League Finder */;
+			targetProxy = 801ED41922B1BD4D0060EA4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		801ED40022B1BD490060EA4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801ED40122B1BD490060EA4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		801ED40522B1BD4C0060EA4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801ED40622B1BD4C0060EA4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		801ED41F22B1BD4D0060EA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		801ED42022B1BD4D0060EA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801ED42222B1BD4D0060EA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA6E433D387549B5E2775AC /* Pods-Fantasy Football League Finder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fantasy Football League Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FFLF.Fantasy-Football-League-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		801ED42322B1BD4D0060EA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4141CB058AD11AE65B51A6 /* Pods-Fantasy Football League Finder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fantasy Football League Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FFLF.Fantasy-Football-League-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		801ED42522B1BD4D0060EA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400C498730D5CBF4262AC472 /* Pods-Fantasy Football League FinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fantasy Football League FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FFLF.Fantasy-Football-League-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fantasy Football League Finder.app/Fantasy Football League Finder";
+			};
+			name = Debug;
+		};
+		801ED42622B1BD4D0060EA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E862CAE1762EAD4D450B124D /* Pods-Fantasy Football League FinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fantasy Football League FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FFLF.Fantasy-Football-League-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fantasy Football League Finder.app/Fantasy Football League Finder";
+			};
+			name = Release;
+		};
+		801ED42822B1BD4D0060EA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53A1459DE73A351D546CEAE /* Pods-Fantasy Football League FinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fantasy Football League FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FFLF.Fantasy-Football-League-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fantasy Football League Finder";
+			};
+			name = Debug;
+		};
+		801ED42922B1BD4D0060EA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F8710B61A05FF3D0D405CA /* Pods-Fantasy Football League FinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fantasy Football League FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FFLF.Fantasy-Football-League-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fantasy Football League Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801ED3F422B1BD490060EA4F /* Build configuration list for PBXProject "Fantasy Football League Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801ED41F22B1BD4D0060EA4F /* Debug */,
+				801ED42022B1BD4D0060EA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801ED42122B1BD4D0060EA4F /* Build configuration list for PBXNativeTarget "Fantasy Football League Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801ED42222B1BD4D0060EA4F /* Debug */,
+				801ED42322B1BD4D0060EA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801ED42422B1BD4D0060EA4F /* Build configuration list for PBXNativeTarget "Fantasy Football League FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801ED42522B1BD4D0060EA4F /* Debug */,
+				801ED42622B1BD4D0060EA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801ED42722B1BD4D0060EA4F /* Build configuration list for PBXNativeTarget "Fantasy Football League FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801ED42822B1BD4D0060EA4F /* Debug */,
+				801ED42922B1BD4D0060EA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801ED3F122B1BD490060EA4F /* Project object */;
+}
